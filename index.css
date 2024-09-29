@@ -1,0 +1,297 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  align-items: center;
+  background-color: rgb(227, 230, 243);
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo {
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+}
+
+.navigationmenu ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+.navigationmenu ul a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.shoppinglogo {
+  height: 16px;
+  width: 16px;
+}
+/* .frontpage {
+  height: 100%;
+  width: 100%;
+} */
+.bgimage {
+  /* height: 100%; */
+  height: 100dvh;
+  width: 100dvw;
+  position: sticky;
+  z-index: -999;
+}
+.bgcontent {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+h4 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 70px;
+}
+h1 {
+  font-size: 70px;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+}
+.frontpage {
+  background-image: url(image/hero4.png);
+
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.frontpage h2 {
+  color: black;
+}
+.frontpage h1 {
+  color: #088178;
+}
+
+.frontpage h4 {
+  font-size: 40px;
+  color: white;
+}
+.frontpage p {
+  font-size: 16px;
+  color: #465b52;
+}
+.frontpage button {
+  width: 260px;
+  height: 60px;
+  background-image: url(image/button.png);
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #088178;
+}
+.fontpage1 {
+  text-align: center;
+}
+.content1 {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 55px 0px;
+}
+
+.box {
+  width: 180px;
+  padding: 25px 15px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.03) 20px 20px 34px;
+  border: 1px solid rgb(204, 231, 208);
+  border-radius: 4px;
+  transition: box-shadow 0.3s;
+}
+.box:hover {
+  box-shadow: 0px 0px 25px 10px rgba(235, 235, 235, 0.5);
+}
+.box img {
+  width: 100%;
+}
+.boxbutton {
+  margin-top: 10px;
+  padding: 9px 8px 6px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #088178;
+}
+.boxbutton1 {
+  background-color: #fddde4;
+}
+.boxbutton2 {
+  background-color: #cdebbc;
+}
+.boxbutton3 {
+  background-color: #d1e8f2;
+}
+.boxbutton4 {
+  background-color: #cdd4f8;
+}
+.boxbutton5 {
+  background-color: #f6dbf6;
+}
+.boxbutton6 {
+  background-color: #fff2e5;
+}
+.fr1heading {
+  text-align: center;
+  margin: 20px 0px;
+}
+.products {
+  padding: 0px 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.productbox {
+  width: 283px;
+  border-radius: 25px;
+  border: 1px solid #e9e9e9;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: box-shadow 0.2s;
+}
+.productbox:hover {
+  box-shadow: 15px 8px 24px 8px rgb(232, 232, 232, 0.8);
+}
+.productbox .clothimage {
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+}
+.starimage {
+  display: flex;
+  gap: 10px;
+}
+.main-headig {
+  color: grey;
+}
+.sub-heading {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.pricing {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing h1 {
+  color: green;
+  font-size: 30px;
+}
+.box-contentinfo {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sepration {
+  background-image: url(image/banner/b2.jpg);
+  width: 100%;
+  color: white;
+  padding: 40px 80px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.sepration-btn {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+}
+.sepration-btn:hover {
+  background-color: #088178;
+  color: white;
+}
+.frontpage3 {
+  text-align: center;
+}
+.newsletter {
+  background-image: url(image/banner/b14.png);
+  background-color: #041e42;
+  width: 100%;
+  height: auto;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.newsletterinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.newsletterinfo h1 {
+  font-size: 30px;
+  color: white;
+}
+.newsletterinfo p {
+  color: grey;
+  font-weight: bold;
+}
+.newsletterinfo p span {
+  color: rgb(216, 182, 29);
+}
+.newsletter form input {
+  border: none;
+  background-color: #d1d0d0;
+  border-radius: 10px 0px 0px 10px;
+  color: black;
+  font-size: 20px;
+  padding: 20px 30px;
+}
+.newsletter form button {
+  padding: 20px 30px;
+  font-size: 20px;
+  color: white;
+  background-color: #088178;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
+footer {
+  background-color: #ececec;
+  padding: 100px 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer h1,
+p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.imagepaymentgateway {
+  border: 1px solid #088178;
+  border-radius: 5px;
+}
+.f11 {
+  font-style: italic;
+}
